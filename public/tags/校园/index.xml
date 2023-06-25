@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>校园 - 标签 - Sereinme</title>
+        <link>http://example.org/tags/%E6%A0%A1%E5%9B%AD/</link>
+        <description>校园 - 标签 - Sereinme</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>sereinme@foxmail.com (sereinme)</managingEditor>
+            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Sat, 24 Jun 2023 20:48:37 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/%E6%A0%A1%E5%9B%AD/" rel="self" type="application/rss+xml" /><item>
+    <title>毕业快乐🎉</title>
+    <link>http://example.org/graduate/</link>
+    <pubDate>Sat, 24 Jun 2023 20:48:37 &#43;0800</pubDate><author>
+        <name>sereinme</name>
+    </author><guid>http://example.org/graduate/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/graduate/graduate-tsinghua.jpg" referrerpolicy="no-referrer">
+            </div>毕业很累很热但是也很快乐！🎈 视频]]></description>
+</item></channel>
+</rss>
