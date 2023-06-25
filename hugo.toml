@@ -489,9 +489,9 @@ theme = "DoIt"
         enable = false
       #  Utterances 评论系统设置
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
-        repo = ""
+        repo = "Sereinme/hugo.site"
         issueTerm = "pathname"
         label = ""
         lightTheme = "github-light"
