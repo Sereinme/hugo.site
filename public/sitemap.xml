@@ -2,12 +2,15 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://example.org/categories/</loc><lastmod>2023-06-24T20:48:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/posts/</loc><lastmod>2023-06-24T20:48:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/</loc><lastmod>2023-06-24T20:48:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/tags/</loc><lastmod>2023-06-24T20:48:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/graduate/</loc><lastmod>2023-06-24T20:48:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/tags/%E6%A0%A1%E5%9B%AD/</loc><lastmod>2023-06-24T20:48:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/categories/%E6%A0%A1%E5%9B%AD%E7%94%9F%E6%B4%BB/</loc><lastmod>2023-06-24T20:48:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://example.org/authors/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://example.org/series/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>https://sereinme.netlify.app/categories/</loc><lastmod>2023-06-25T23:09:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://sereinme.netlify.app/posts/</loc><lastmod>2023-06-25T23:09:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://sereinme.netlify.app/</loc><lastmod>2023-06-25T23:09:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://sereinme.netlify.app/tags/</loc><lastmod>2023-06-25T23:09:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://sereinme.netlify.app/tags/%E7%94%B5%E8%84%91/</loc><lastmod>2023-06-25T23:09:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://sereinme.netlify.app/tags/%E6%A0%A1%E5%9B%AD/</loc><lastmod>2023-06-25T23:09:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://sereinme.netlify.app/categories/%E6%A0%A1%E5%9B%AD%E7%94%9F%E6%B4%BB/</loc><lastmod>2023-06-25T23:09:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://sereinme.netlify.app/tags/%E7%A1%AC%E4%BB%B6/</loc><lastmod>2023-06-25T23:09:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://sereinme.netlify.app/computer/</loc><lastmod>2023-06-25T23:09:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://sereinme.netlify.app/graduate/</loc><lastmod>2023-06-24T20:48:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://sereinme.netlify.app/authors/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://sereinme.netlify.app/series/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>

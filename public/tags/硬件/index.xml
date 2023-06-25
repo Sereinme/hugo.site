@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>硬件 - 标签 - Sereinme</title>
+        <link>https://sereinme.netlify.app/tags/%E7%A1%AC%E4%BB%B6/</link>
+        <description>硬件 - 标签 - Sereinme</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>sereinme@foxmail.com (sereinme)</managingEditor>
+            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Sun, 25 Jun 2023 23:09:37 &#43;0800</lastBuildDate><atom:link href="https://sereinme.netlify.app/tags/%E7%A1%AC%E4%BB%B6/" rel="self" type="application/rss+xml" /><item>
+    <title>装机体验🖥️</title>
+    <link>https://sereinme.netlify.app/computer/</link>
+    <pubDate>Sun, 25 Jun 2023 23:09:37 &#43;0800</pubDate><author>
+        <name>sereinme</name>
+    </author><guid>https://sereinme.netlify.app/computer/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/computer/computer-preface.webp" referrerpolicy="no-referrer">
+            </div>配置 装机 总结 致谢感谢胡昌宇同学在我装机时对我的帮助，特请奶茶一杯😊。]]></description>
+</item></channel>
+</rss>

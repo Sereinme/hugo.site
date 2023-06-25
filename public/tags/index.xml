@@ -1,15 +1,29 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - 标签 - Sereinme</title>
-        <link>http://example.org/tags/</link>
+        <link>https://sereinme.netlify.app/tags/</link>
         <description>Tags - 标签 - Sereinme</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>sereinme@foxmail.com (sereinme)</managingEditor>
-            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Sat, 24 Jun 2023 20:48:37 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>校园</title>
-    <link>http://example.org/tags/%E6%A0%A1%E5%9B%AD/</link>
-    <pubDate>Sat, 24 Jun 2023 20:48:37 &#43;0800</pubDate><author>
+            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Sun, 25 Jun 2023 23:09:37 &#43;0800</lastBuildDate><atom:link href="https://sereinme.netlify.app/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>电脑</title>
+    <link>https://sereinme.netlify.app/tags/%E7%94%B5%E8%84%91/</link>
+    <pubDate>Sun, 25 Jun 2023 23:09:37 &#43;0800</pubDate><author>
         <name>sereinme</name>
-    </author><guid>http://example.org/tags/%E6%A0%A1%E5%9B%AD/</guid>
+    </author><guid>https://sereinme.netlify.app/tags/%E7%94%B5%E8%84%91/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>校园</title>
+    <link>https://sereinme.netlify.app/tags/%E6%A0%A1%E5%9B%AD/</link>
+    <pubDate>Sun, 25 Jun 2023 23:09:37 &#43;0800</pubDate><author>
+        <name>sereinme</name>
+    </author><guid>https://sereinme.netlify.app/tags/%E6%A0%A1%E5%9B%AD/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>硬件</title>
+    <link>https://sereinme.netlify.app/tags/%E7%A1%AC%E4%BB%B6/</link>
+    <pubDate>Sun, 25 Jun 2023 23:09:37 &#43;0800</pubDate><author>
+        <name>sereinme</name>
+    </author><guid>https://sereinme.netlify.app/tags/%E7%A1%AC%E4%BB%B6/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

@@ -1,15 +1,24 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>校园 - 标签 - Sereinme</title>
-        <link>http://example.org/tags/%E6%A0%A1%E5%9B%AD/</link>
+        <link>https://sereinme.netlify.app/tags/%E6%A0%A1%E5%9B%AD/</link>
         <description>校园 - 标签 - Sereinme</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>sereinme@foxmail.com (sereinme)</managingEditor>
-            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Sat, 24 Jun 2023 20:48:37 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/%E6%A0%A1%E5%9B%AD/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Sun, 25 Jun 2023 23:09:37 &#43;0800</lastBuildDate><atom:link href="https://sereinme.netlify.app/tags/%E6%A0%A1%E5%9B%AD/" rel="self" type="application/rss+xml" /><item>
+    <title>装机体验🖥️</title>
+    <link>https://sereinme.netlify.app/computer/</link>
+    <pubDate>Sun, 25 Jun 2023 23:09:37 &#43;0800</pubDate><author>
+        <name>sereinme</name>
+    </author><guid>https://sereinme.netlify.app/computer/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/computer/computer-preface.webp" referrerpolicy="no-referrer">
+            </div>配置 装机 总结 致谢感谢胡昌宇同学在我装机时对我的帮助，特请奶茶一杯😊。]]></description>
+</item><item>
     <title>毕业快乐🎉</title>
-    <link>http://example.org/graduate/</link>
+    <link>https://sereinme.netlify.app/graduate/</link>
     <pubDate>Sat, 24 Jun 2023 20:48:37 &#43;0800</pubDate><author>
         <name>sereinme</name>
-    </author><guid>http://example.org/graduate/</guid>
+    </author><guid>https://sereinme.netlify.app/graduate/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/graduate/graduate-tsinghua.jpg" referrerpolicy="no-referrer">
             </div>毕业很累很热但是也很快乐！🎈 照片 视频]]></description>
