@@ -3,6 +3,15 @@
 
 毕业很累很热但是也很快乐！🎈
 
+## 照片
+
+![](graduate-tsinghua-1.jpg)
+![](graduate-tsinghua-2.jpg)
+![](graduate-tsinghua-3.jpg)
+![](graduate-tsinghua-4.jpg)
+![](graduate-tsinghua-5.jpg)
+![](graduate-tsinghua-6.jpg)
+
 ## 视频
 
 <div align="center">
