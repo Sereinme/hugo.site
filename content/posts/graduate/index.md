@@ -4,8 +4,8 @@ date: 2023-06-24T20:48:37+08:00
 draft: false
 featuredImage: "graduate-tsinghua.jpg"
 description: "毕业很累很热但是也很快乐！🎈"
-tags: ["校园"]
-categories: ["校园生活"]
+tags: ["Campus"]
+categories: ["Life"]
 ---
 
 毕业很累很热但是也很快乐！🎈

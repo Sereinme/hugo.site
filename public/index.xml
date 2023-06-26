@@ -4,9 +4,27 @@
         <link>https://sereinme.netlify.app/</link>
         <description>Sereinme 的网站</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>sereinme@foxmail.com (sereinme)</managingEditor>
-            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Sun, 25 Jun 2023 23:09:37 &#43;0800</lastBuildDate>
+            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Tue, 27 Jun 2023 00:52:37 &#43;0800</lastBuildDate>
             <atom:link href="https://sereinme.netlify.app/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>LZ77📑</title>
+    <link>https://sereinme.netlify.app/lz77/</link>
+    <pubDate>Tue, 27 Jun 2023 00:52:37 &#43;0800</pubDate><author>
+        <name>sereinme</name>
+    </author><guid>https://sereinme.netlify.app/lz77/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/lz77/lz77-compression.png" referrerpolicy="no-referrer">
+            </div>引言LZ77是一种采用字典进行数据压缩的经典压缩算法，由两位以色列工程师Jacob Ziv和Abraham Lempel在1977年发表的论文“]]></description>
+</item><item>
+    <title>alist💾</title>
+    <link>https://sereinme.netlify.app/alist/</link>
+    <pubDate>Mon, 26 Jun 2023 09:57:37 &#43;0800</pubDate><author>
+        <name>sereinme</name>
+    </author><guid>https://sereinme.netlify.app/alist/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/alist/alist.webp" referrerpolicy="no-referrer">
+            </div>]]></description>
+</item><item>
     <title>装机体验🖥️</title>
     <link>https://sereinme.netlify.app/computer/</link>
     <pubDate>Sun, 25 Jun 2023 23:09:37 &#43;0800</pubDate><author>
@@ -14,7 +32,7 @@
     </author><guid>https://sereinme.netlify.app/computer/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/computer/computer-preface.webp" referrerpolicy="no-referrer">
-            </div>配置 装机 总结 致谢感谢胡昌宇同学在我装机时对我的帮助，特请奶茶一杯😊。]]></description>
+            </div>配置考虑到组装电脑的用途以及性价比，选取的装机配置如下表所示。 类型 价格 型号 尺寸 其他 CPU 2769 i7-13790F x GPU 2799 ASUS TUF RTX3060 30cm x 主板 1499 ROG STRIX B760-G MATX x 内存 939 16x2 DDR5 金士顿 x SSD]]></description>
 </item><item>
     <title>毕业快乐🎉</title>
     <link>https://sereinme.netlify.app/graduate/</link>

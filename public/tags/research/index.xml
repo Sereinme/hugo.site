@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Research - 标签 - Sereinme</title>
+        <link>https://sereinme.netlify.app/tags/research/</link>
+        <description>Research - 标签 - Sereinme</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>sereinme@foxmail.com (sereinme)</managingEditor>
+            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Tue, 27 Jun 2023 00:52:37 &#43;0800</lastBuildDate><atom:link href="https://sereinme.netlify.app/tags/research/" rel="self" type="application/rss+xml" /><item>
+    <title>LZ77📑</title>
+    <link>https://sereinme.netlify.app/lz77/</link>
+    <pubDate>Tue, 27 Jun 2023 00:52:37 &#43;0800</pubDate><author>
+        <name>sereinme</name>
+    </author><guid>https://sereinme.netlify.app/lz77/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/lz77/lz77-compression.png" referrerpolicy="no-referrer">
+            </div>引言LZ77是一种采用字典进行数据压缩的经典压缩算法，由两位以色列工程师Jacob Ziv和Abraham Lempel在1977年发表的论文“]]></description>
+</item></channel>
+</rss>

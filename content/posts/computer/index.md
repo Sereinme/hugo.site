@@ -4,8 +4,8 @@ date: 2023-06-25T23:09:37+08:00
 draft: false
 featuredImage: "computer-preface.webp"
 description: "装电脑喽"
-tags: ["校园", "电脑", "硬件"]
-categories: ["校园生活"]
+tags: ["Campus", "Computer"]
+categories: ["Life"]
 ---
 
 ## 配置

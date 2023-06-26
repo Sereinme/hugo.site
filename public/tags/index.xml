@@ -4,26 +4,47 @@
         <link>https://sereinme.netlify.app/tags/</link>
         <description>Tags - 标签 - Sereinme</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>sereinme@foxmail.com (sereinme)</managingEditor>
-            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Sun, 25 Jun 2023 23:09:37 &#43;0800</lastBuildDate><atom:link href="https://sereinme.netlify.app/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>电脑</title>
-    <link>https://sereinme.netlify.app/tags/%E7%94%B5%E8%84%91/</link>
-    <pubDate>Sun, 25 Jun 2023 23:09:37 &#43;0800</pubDate><author>
+            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Tue, 27 Jun 2023 00:52:37 &#43;0800</lastBuildDate><atom:link href="https://sereinme.netlify.app/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Compression</title>
+    <link>https://sereinme.netlify.app/tags/compression/</link>
+    <pubDate>Tue, 27 Jun 2023 00:52:37 &#43;0800</pubDate><author>
         <name>sereinme</name>
-    </author><guid>https://sereinme.netlify.app/tags/%E7%94%B5%E8%84%91/</guid>
+    </author><guid>https://sereinme.netlify.app/tags/compression/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>校园</title>
-    <link>https://sereinme.netlify.app/tags/%E6%A0%A1%E5%9B%AD/</link>
-    <pubDate>Sun, 25 Jun 2023 23:09:37 &#43;0800</pubDate><author>
+    <title>Lossless</title>
+    <link>https://sereinme.netlify.app/tags/lossless/</link>
+    <pubDate>Tue, 27 Jun 2023 00:52:37 &#43;0800</pubDate><author>
         <name>sereinme</name>
-    </author><guid>https://sereinme.netlify.app/tags/%E6%A0%A1%E5%9B%AD/</guid>
+    </author><guid>https://sereinme.netlify.app/tags/lossless/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>硬件</title>
-    <link>https://sereinme.netlify.app/tags/%E7%A1%AC%E4%BB%B6/</link>
-    <pubDate>Sun, 25 Jun 2023 23:09:37 &#43;0800</pubDate><author>
+    <title>Research</title>
+    <link>https://sereinme.netlify.app/tags/research/</link>
+    <pubDate>Tue, 27 Jun 2023 00:52:37 &#43;0800</pubDate><author>
         <name>sereinme</name>
-    </author><guid>https://sereinme.netlify.app/tags/%E7%A1%AC%E4%BB%B6/</guid>
+    </author><guid>https://sereinme.netlify.app/tags/research/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Campus</title>
+    <link>https://sereinme.netlify.app/tags/campus/</link>
+    <pubDate>Mon, 26 Jun 2023 09:57:37 &#43;0800</pubDate><author>
+        <name>sereinme</name>
+    </author><guid>https://sereinme.netlify.app/tags/campus/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Computer</title>
+    <link>https://sereinme.netlify.app/tags/computer/</link>
+    <pubDate>Mon, 26 Jun 2023 09:57:37 &#43;0800</pubDate><author>
+        <name>sereinme</name>
+    </author><guid>https://sereinme.netlify.app/tags/computer/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>GO</title>
+    <link>https://sereinme.netlify.app/tags/go/</link>
+    <pubDate>Mon, 26 Jun 2023 09:57:37 &#43;0800</pubDate><author>
+        <name>sereinme</name>
+    </author><guid>https://sereinme.netlify.app/tags/go/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
