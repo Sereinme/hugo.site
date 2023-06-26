@@ -11,7 +11,7 @@
         <name>sereinme</name>
     </author><guid>https://sereinme.netlify.app/lz77/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="/lz77/lz77-compression.png" referrerpolicy="no-referrer">
+                <img src="/lz77/lz77-compression.webp" referrerpolicy="no-referrer">
             </div>引言LZ77是一种采用字典进行数据压缩的经典压缩算法，由两位以色列工程师Jacob Ziv和Abraham Lempel在1977年发表的论文“]]></description>
 </item></channel>
 </rss>

@@ -2,7 +2,7 @@
 title: "LZ77📑"
 date: 2023-06-27T00:52:37+08:00
 draft: false
-featuredImage: "lz77-compression.png"
+featuredImage: "lz77-compression.webp"
 description: "LZ77"
 tags: ["Research", "Compression", "Lossless"]
 categories: ["Lab"]
