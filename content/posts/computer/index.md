@@ -28,6 +28,8 @@ categories: ["Life"]
 
 ## 装机
 
+{{< bilibili BV1BG4y137mG >}}
+
 ## 总结
 
 
