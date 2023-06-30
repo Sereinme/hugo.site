@@ -4,7 +4,16 @@
         <link>https://sereinme.netlify.app/categories/life/</link>
         <description>Life - 分类 - Sereinme</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>sereinme@foxmail.com (sereinme)</managingEditor>
-            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Sun, 25 Jun 2023 23:09:37 &#43;0800</lastBuildDate><atom:link href="https://sereinme.netlify.app/categories/life/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Mon, 26 Jun 2023 09:57:37 &#43;0800</lastBuildDate><atom:link href="https://sereinme.netlify.app/categories/life/" rel="self" type="application/rss+xml" /><item>
+    <title>alist💾</title>
+    <link>https://sereinme.netlify.app/alist/</link>
+    <pubDate>Mon, 26 Jun 2023 09:57:37 &#43;0800</pubDate><author>
+        <name>sereinme</name>
+    </author><guid>https://sereinme.netlify.app/alist/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/alist/alist.webp" referrerpolicy="no-referrer">
+            </div>alist是一个使用 Gin 和 Solidjs开发的支持多种存储的文件列表程序。]]></description>
+</item><item>
     <title>装机体验🖥️</title>
     <link>https://sereinme.netlify.app/computer/</link>
     <pubDate>Sun, 25 Jun 2023 23:09:37 &#43;0800</pubDate><author>
@@ -12,7 +21,7 @@
     </author><guid>https://sereinme.netlify.app/computer/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/computer/computer-preface.webp" referrerpolicy="no-referrer">
-            </div>配置考虑到组装电脑的用途以及性价比，选取的装机配置如下表所示。 类型 价格 型号 尺寸 其他 CPU 2769 i7-13790F x GPU 2799 ASUS TUF RTX3060 30cm x 主板 1499 ROG STRIX B760-G MATX x 内存 939 16x2 DDR5 金士顿 x SSD]]></description>
+            </div>我进入大学买的第一台笔记本是 HP 的 EliteBook，配置是 配置考虑到组装电脑的用途以及性价比，选取的装机配置如下表所示。 类型 价格 型号 尺寸 其他]]></description>
 </item><item>
     <title>毕业快乐🎉</title>
     <link>https://sereinme.netlify.app/graduate/</link>
@@ -20,7 +29,7 @@
         <name>sereinme</name>
     </author><guid>https://sereinme.netlify.app/graduate/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="/graduate/graduate-tsinghua.jpg" referrerpolicy="no-referrer">
+                <img src="/graduate/graduate-tsinghua.webp" referrerpolicy="no-referrer">
             </div>毕业很累很热但是也很快乐！🎈 照片 视频]]></description>
 </item></channel>
 </rss>

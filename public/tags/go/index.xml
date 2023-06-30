@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>GO - 标签 - Sereinme</title>
+        <title>Go - 标签 - Sereinme</title>
         <link>https://sereinme.netlify.app/tags/go/</link>
-        <description>GO - 标签 - Sereinme</description>
+        <description>Go - 标签 - Sereinme</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>sereinme@foxmail.com (sereinme)</managingEditor>
             <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Mon, 26 Jun 2023 09:57:37 &#43;0800</lastBuildDate><atom:link href="https://sereinme.netlify.app/tags/go/" rel="self" type="application/rss+xml" /><item>
     <title>alist💾</title>
@@ -12,6 +12,6 @@
     </author><guid>https://sereinme.netlify.app/alist/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/alist/alist.webp" referrerpolicy="no-referrer">
-            </div>]]></description>
+            </div>alist是一个使用 Gin 和 Solidjs开发的支持多种存储的文件列表程序。]]></description>
 </item></channel>
 </rss>

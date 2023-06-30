@@ -4,7 +4,16 @@
         <link>https://sereinme.netlify.app/tags/research/</link>
         <description>Research - 标签 - Sereinme</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>sereinme@foxmail.com (sereinme)</managingEditor>
-            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Tue, 27 Jun 2023 00:52:37 &#43;0800</lastBuildDate><atom:link href="https://sereinme.netlify.app/tags/research/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Tue, 27 Jun 2023 01:52:37 &#43;0800</lastBuildDate><atom:link href="https://sereinme.netlify.app/tags/research/" rel="self" type="application/rss+xml" /><item>
+    <title>DEFLATE📝</title>
+    <link>https://sereinme.netlify.app/deflate/</link>
+    <pubDate>Tue, 27 Jun 2023 01:52:37 &#43;0800</pubDate><author>
+        <name>sereinme</name>
+    </author><guid>https://sereinme.netlify.app/deflate/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/deflate/deflate.webp" referrerpolicy="no-referrer">
+            </div>DEFLATE是同时使用了LZ77算法和哈夫曼编码（Huffman Coding）的一个无损数据压缩算法。它最初由Phil Katz为其PKZI]]></description>
+</item><item>
     <title>LZ77📑</title>
     <link>https://sereinme.netlify.app/lz77/</link>
     <pubDate>Tue, 27 Jun 2023 00:52:37 &#43;0800</pubDate><author>
