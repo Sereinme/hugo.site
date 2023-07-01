@@ -39,6 +39,14 @@ theme = "DoIt"
     url = "/categories/"
     title = ""
     weight = 3
+  [[menu.main]]
+    identifier = "series"
+    pre = ""
+    post = ""
+    name = "🗄️系列"
+    url = "/series/"
+    title = ""
+    weight = 4
 
 
 [params]
