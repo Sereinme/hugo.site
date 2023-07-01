@@ -1,6 +1,8 @@
 ---
 title: "alist💾"
 date: 2023-06-26T09:57:37+08:00
+lastmod: 2023-07-02
+# enableLastMod: true
 draft: false
 featuredImage: "alist.webp"
 description: "alist yyds"

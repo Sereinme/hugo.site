@@ -6,6 +6,7 @@ featuredImage: "lz77-compression.webp"
 description: "LZ77"
 tags: ["Research", "Compression", "Lossless"]
 categories: ["Lab"]
+series: ["数据压缩"]
 ---
 
 ## 引言
