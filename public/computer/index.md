@@ -30,4 +30,6 @@
 
 感谢胡昌宇同学在我装机时对我的帮助，特请奶茶一杯😊。
 
+{{< music server="netease" type="song" id="28983126" autoplay="true" >}}
+
 
