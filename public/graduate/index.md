@@ -3,6 +3,8 @@
 
 毕业很累很热但是也很快乐！🎈
 
+{{< music server="netease" type="song" id="407000148" autoplay="true">}}
+
 ## 照片
 
 ![](graduate-tsinghua-0.jpg)
