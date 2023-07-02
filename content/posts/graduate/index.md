@@ -8,9 +8,9 @@ tags: ["Campus"]
 categories: ["Life"]
 ---
 
-毕业很累很热但是也很快乐！🎈
+{{< music server="netease" type="song" id="407000148" autoplay="true" >}}
 
-{{< music server="netease" type="song" id="407000148" autoplay="true">}}
+毕业很累很热但是也很快乐！🎈
 
 ## 照片
 
