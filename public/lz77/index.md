@@ -1,8 +1,8 @@
 # LZ77📑
 
 
-<!-- Larry Carlton Style - Guthrie Govan -->
-{{< music server="netease" type="song" id="2012545992" autoplay="true" >}}
+<!-- Playing God - Polyphia -->
+{{< music server="netease" type="song" id="1942832207" autoplay="true" >}}
 
 ## 引言
 
