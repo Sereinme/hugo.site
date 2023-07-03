@@ -23,14 +23,14 @@
                 <img src="/lz77/lz77-compression.webp" referrerpolicy="no-referrer">
             </div>引言LZ77是一种采用字典进行数据压缩的经典压缩算法，由两位以色列工程师Jacob Ziv和Abraham Lempel在1977年发表的论文“]]></description>
 </item><item>
-    <title>alist💾</title>
+    <title>Alist💾</title>
     <link>https://sereinme.netlify.app/alist/</link>
     <pubDate>Mon, 26 Jun 2023 09:57:37 &#43;0800</pubDate><author>
         <name>sereinme</name>
     </author><guid>https://sereinme.netlify.app/alist/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/alist/alist.webp" referrerpolicy="no-referrer">
-            </div>alist是一个使用 Gin 和 Solidjs开发的支持多种存储的文件列表程序。]]></description>
+            </div>Alist是一个使用 Gin 和 Solidjs 开发的支持多种存储的文件列表程序，其具有优秀的性能和美观的用户界面，能够很好地对各种网盘以及本地存储文件进行管理和]]></description>
 </item><item>
     <title>装机体验🖥️</title>
     <link>https://sereinme.netlify.app/computer/</link>
