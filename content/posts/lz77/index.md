@@ -9,6 +9,9 @@ categories: ["Lab"]
 series: ["数据压缩"]
 ---
 
+<!-- Larry Carlton Style - Guthrie Govan -->
+{{< music server="netease" type="song" id="2012545992" autoplay="true" >}}
+
 ## 引言
 
 LZ77是一种采用字典进行数据压缩的经典压缩算法，由两位以色列工程师Jacob Ziv和Abraham Lempel在1977年发表的论文“A Universal Algorithm for Sequential Data Compression”中提出。
