@@ -8,6 +8,7 @@ tags: ["Campus"]
 categories: ["Life"]
 ---
 
+<!-- Crush - Polyphia -->
 {{< music server="netease" type="song" id="407000148" autoplay="true" >}}
 
 毕业很累很热但是也很快乐！🎈

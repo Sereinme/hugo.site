@@ -10,9 +10,12 @@ tags: ["Campus", "Computer", "Go"]
 categories: ["Life"]
 ---
 
-<!-- ![](logo.svg) -->
+<!-- Through Our Darkest Days - Mercenary -->
+{{< music server="netease" type="song" id="27507087" autoplay="true" >}}
 
 [Alist](https://alist.nn.ci/)是一个使用 [Gin](https://gin-gonic.com/zh-cn/) 和 [Solidjs](https://www.solidjs.com/) 开发的支持多种存储的文件列表程序，其具有优秀的性能和美观的用户界面，能够很好地对各种网盘以及本地存储文件进行管理和多平台访问（主要是视频、图像和音频）。
+
+欢迎访问我的 Alist 站点：[sereinme's alist](http://59.66.175.32:5244)。
 
 ## 安装
 
@@ -42,15 +45,49 @@ Alist 具体配置在其官网有着极其详细的描述，在此只进行简�
 
 ### 开机自启
 
+在 Windows 系统中实现开机自启有多种方法，笔者采用的是 Task Schedular (任务计划程序) 进行实现。
+
+任务计划程序中创建任务的方式见参考资料，需要注意的是，其启动程序的脚本应是
+
+```powershell
+alist start
+```
+
+这样会打开之前配置完成的 Alist 服务，而如果用 `alist server` 的话，会打开一个全新未经过配置的 Alist 服务。
+
 ## 使用
+
+在其他设备上使用 Alist 时，需要知道服务器主机的 IP 地址，可以通过 `ipconfig` 命令进行查看。
 
 ### 浏览器
 
+对于没有经过 https 和端口配置等的 Alist 服务，直接在浏览器中输入
+
+```url
+http://<domain>:5244
+```
+
+就可以进入服务器主机的 Alist 界面中，在进行了登录之后能够对其中的文件进行查看和修改操作。
+
 ### WebDav
+
+Alist 支持利用 WebDav 协议进行文件共享，其 WebDav 配置如下
+                     
+ Name      | Value                      
+:---------:|:--------------------------:
+ Url       | http[s]://domain:port/dav/ 
+ Host      | domain                     
+ 路径        | dav                        
+ 协议        | http/https                 
+ 端口        | 与网页端一致                     
+ WebDAV用户名 | 与网页端用户名一致                  
+ WebDAV密码	 | 与网页端密码一致                                   
+
+
 
 ## 参考资料
 
 - [Alist 官网](https://alist.nn.ci/)
 - [Alist · Github](https://github.com/alist-org/alist)
+- [用Windows自带的Task Scheduler部署一个定时任务启动一个程序](https://cloud.tencent.com/developer/article/1520728)
 
-{{< music server="netease" type="song" id="27507087" autoplay="true" >}}

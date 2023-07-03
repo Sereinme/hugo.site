@@ -8,6 +8,9 @@ tags: ["Campus", "Computer"]
 categories: ["Life"]
 ---
 
+<!-- James Franco - Polyphia -->
+{{< music server="netease" type="song" id="28983126" autoplay="true" >}}
+
 我进入大学买的第一台笔记本是 HP 的 EliteBook，配置是
 
 ## 配置
@@ -36,6 +39,4 @@ categories: ["Life"]
 ## 致谢
 
 感谢胡昌宇同学在我装机时对我的帮助，特请奶茶一杯😊。
-
-{{< music server="netease" type="song" id="28983126" autoplay="true" >}}
 
