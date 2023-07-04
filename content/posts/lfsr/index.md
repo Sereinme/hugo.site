@@ -6,7 +6,7 @@ lastmod: 2023-07-04
 draft: false
 featuredImage: "lsfr.webp"
 description: "C/A 码生成器是由两个不同的 LSFR 组合而成"
-tags: ["GNSS", "Signal", "LSFR"]
+tags: ["GNSS", "Signal", "LSFR", "Research"]
 categories: ["Lab"]
 ---
 
