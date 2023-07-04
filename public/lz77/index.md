@@ -2,7 +2,7 @@
 
 
 <!-- Playing God - Polyphia -->
-<!-- {{< music server="netease" type="song" id="1942832207" autoplay="true" >}} -->
+{{< music server="netease" type="song" id="1942832207" autoplay="true" >}}
 
 ## 引言
 
