@@ -47,6 +47,14 @@ theme = "DoIt"
     url = "/series/"
     title = ""
     weight = 4
+  [[menu.main]]
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "🧷关于"
+    url = "/about/"
+    title = ""
+    weight = 5
 
 
 [params]

@@ -6,6 +6,7 @@ featuredImage: "graduate-tsinghua.webp"
 description: "毕业很累很热但是也很快乐！🎈"
 tags: ["Campus"]
 categories: ["Life"]
+lightgallery: true
 ---
 
 <!-- Crush - Polyphia -->
