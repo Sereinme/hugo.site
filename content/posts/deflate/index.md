@@ -10,7 +10,7 @@ series: ["数据压缩"]
 ---
 
 <!-- 太空漫步 Space Walk - HOYO-MiX -->
-{{< music server="netease" type="song" id="2034615687" autoplay="true" >}}
+<!-- {{< music server="netease" type="song" id="2034615687" autoplay="true" >}} -->
 
 DEFLATE是同时使用了[LZ77](../lz77)算法和哈夫曼编码（Huffman Coding）的一个无损数据压缩算法。它最初由Phil Katz为其PKZIP软件第二版所定义，后来被RFC 1951标准化。DEFLATE在zip、gzip和png文件中均有应用。
 

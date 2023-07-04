@@ -11,7 +11,7 @@ categories: ["Lab"]
 ---
 
 <!-- Emotive Ballad - Guthrie Govan -->
-{{< music server="netease" type="song" id="1416264" autoplay="true" >}}
+<!-- {{< music server="netease" type="song" id="1416264" autoplay="true" >}} -->
 
 {{< admonition type=note title="线性反馈移位寄存器" >}}
 Linear Feedback Shift Register, LFSR, 作为线性驱动部分来生成伪随机码，是数学意义上的最优解，自相关函数除主峰外具有最大平坦。
