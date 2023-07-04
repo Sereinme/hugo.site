@@ -36,7 +36,7 @@ comment: false
 
 ---
 
-- 🏫 [@THU](www.tsinghua.edu.cn) 在校生
+- 🏫 [@THU](https://www.tsinghua.edu.cn) 在校生
 - 🔬 电子工程专业
 - ⚡ Matlab / Python / Go / Verilog / C#
 - 🎸 摇滚 / 金属 / Fusion
