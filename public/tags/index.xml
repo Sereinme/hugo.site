@@ -4,7 +4,28 @@
         <link>https://sereinme.netlify.app/tags/</link>
         <description>Tags - 标签 - Sereinme</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>sereinme@foxmail.com (sereinme)</managingEditor>
-            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Tue, 27 Jun 2023 01:52:37 &#43;0800</lastBuildDate><atom:link href="https://sereinme.netlify.app/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Tue, 04 Jul 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://sereinme.netlify.app/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>GNSS</title>
+    <link>https://sereinme.netlify.app/tags/gnss/</link>
+    <pubDate>Tue, 04 Jul 2023 00:00:00 &#43;0000</pubDate><author>
+        <name>sereinme</name>
+    </author><guid>https://sereinme.netlify.app/tags/gnss/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>LSFR</title>
+    <link>https://sereinme.netlify.app/tags/lsfr/</link>
+    <pubDate>Tue, 04 Jul 2023 00:00:00 &#43;0000</pubDate><author>
+        <name>sereinme</name>
+    </author><guid>https://sereinme.netlify.app/tags/lsfr/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Signal</title>
+    <link>https://sereinme.netlify.app/tags/signal/</link>
+    <pubDate>Tue, 04 Jul 2023 00:00:00 &#43;0000</pubDate><author>
+        <name>sereinme</name>
+    </author><guid>https://sereinme.netlify.app/tags/signal/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Compression</title>
     <link>https://sereinme.netlify.app/tags/compression/</link>
     <pubDate>Tue, 27 Jun 2023 01:52:37 &#43;0800</pubDate><author>

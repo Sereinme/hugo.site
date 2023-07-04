@@ -1,0 +1,383 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noodp" />
+    <title>线性反馈移位寄存器🛅 - Sereinme</title><meta name="Description" content="C/A 码生成器是由两个不同的 LSFR 组合而成"><meta property="og:title" content="线性反馈移位寄存器🛅" />
+<meta property="og:description" content="C/A 码生成器是由两个不同的 LSFR 组合而成" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sereinme.netlify.app/lfsr/" /><meta property="og:image" content="https://sereinme.netlify.app/images/avatar.webp"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-07-04T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-07-04T00:00:00+00:00" /><meta property="og:site_name" content="Sereinme" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://sereinme.netlify.app/images/avatar.webp"/>
+
+<meta name="twitter:title" content="线性反馈移位寄存器🛅"/>
+<meta name="twitter:description" content="C/A 码生成器是由两个不同的 LSFR 组合而成"/>
+<meta name="application-name" content="Sereinme">
+<meta name="apple-mobile-web-app-title" content="Sereinme">
+
+<meta name="theme-color" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="https://sereinme.netlify.app/lfsr/" /><link rel="prev" href="https://sereinme.netlify.app/deflate/" />
+<link rel="stylesheet" href="/css/main.a0f23a78e4df27e6d8159b2a8f68b02a.css" integrity="md5-oPI6eOTfJ&#43;bYFZsqj2iwKg=="><link rel="stylesheet" href="/lib/normalize/normalize.min.a12cacf4b5b41234196cb89042b24a70.css" integrity="md5-oSys9LW0EjQZbLiQQrJKcA=="><link rel="stylesheet" href="/css/color.2b7a66034a8c819c4daf724eaae5e5a0.css" integrity="md5-K3pmA0qMgZxNr3JOquXloA=="><link rel="stylesheet" href="/css/style.min.9e99ed3d8dc2d1ff6ea1c0dc9b5367bf.css" integrity="md5-npntPY3C0f9uocDcm1Nnvw=="><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.c4b9a109042331f12794212bac10225a.css" integrity="md5-xLmhCQQjMfEnlCErrBAiWg==">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.c4b9a109042331f12794212bac10225a.css" integrity="md5-xLmhCQQjMfEnlCErrBAiWg=="></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.b3d5b75898f1ed885c7d2b538faa8b81.css" integrity="md5-s9W3WJjx7YhcfStTj6qLgQ==">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.b3d5b75898f1ed885c7d2b538faa8b81.css" integrity="md5-s9W3WJjx7YhcfStTj6qLgQ=="></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "线性反馈移位寄存器🛅",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/sereinme.netlify.app\/lfsr\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/sereinme.netlify.app\/images\/avatar.webp",
+                            "width":  4000 ,
+                            "height":  4000 
+                        }],"genre": "posts","keywords": "GNSS, Signal, LSFR","wordcount":  1463 ,
+        "url": "https:\/\/sereinme.netlify.app\/lfsr\/","datePublished": "2023-07-04T00:00:00+00:00","dateModified": "2023-07-04T00:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": "sereinme","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/sereinme.netlify.app\/images\/pinkblue.jpg",
+                    "width":  720 ,
+                    "height":  720 
+                }},"author": {
+                "@type": "Person",
+                "name": "sereinme"
+            },"description": "C/A 码生成器是由两个不同的 LSFR 组合而成"
+    }
+    </script><script src="//instant.page/5.2.0" defer type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
+</head>
+
+<body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">
+        function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme;   window.isDark = window.theme !== 'light' }
+        function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
+        function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
+        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('auto' === 'light' || 'auto' === 'dark' || 'auto' === 'black') setTheme('auto'), saveTheme('auto'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
+        let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
+        getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+        window.switchThemeEventSet = new Set()
+    </script>
+    <div id="back-to-top"></div>
+    <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Sereinme"><img
+        class="logo"
+        loading="lazy"
+        src="/images/avatar.webp"
+        srcset="/images/avatar.webp, /images/avatar.webp 1.5x, /images/avatar.webp 2x"
+        sizes="auto"
+        alt="/images/avatar.webp"
+        title="/images/avatar.webp" ><span id="desktop-header-typeit" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 📂文章 </a><a class="menu-item" href="/tags/"> 🏷️标签 </a><a class="menu-item" href="/categories/"> 🗂️分类 </a><a class="menu-item" href="/series/"> 🗄️系列 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-select" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                    <select class="color-theme-select" id="theme-select-desktop" title="切换主题">
+                        <option value="light">浅色</option>
+                        <option value="dark">深色</option>
+                        <option value="black">黑色</option>
+                        <option value="auto">跟随系统</option>
+                    </select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Sereinme"><img
+        class="logo"
+        loading="lazy"
+        src="/images/avatar.webp"
+        srcset="/images/avatar.webp, /images/avatar.webp 1.5x, /images/avatar.webp 2x"
+        sizes="auto"
+        alt="/images/avatar.webp"
+        title="/images/avatar.webp" ><span id="mobile-header-typeit" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">📂文章</a><a class="menu-item" href="/tags/" title="">🏷️标签</a><a class="menu-item" href="/categories/" title="">🗂️分类</a><a class="menu-item" href="/series/" title="">🗄️系列</a><a href="javascript:void(0);" class="menu-item theme-select" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+                <select class="color-theme-select" id="theme-select-mobile" title="切换主题">
+                    <option value="light">浅色</option>
+                    <option value="dark">深色</option>
+                    <option value="black">黑色</option>
+                    <option value="auto">跟随系统</option>
+                </select>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+            <div class="container"><div class="toc" id="toc-auto">
+        <h2 class="toc-title">目录</h2>
+        <div class="toc-content" id="toc-content-auto"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#lfsr引入">LFSR引入</a></li>
+    <li><a href="#反馈函数">反馈函数</a></li>
+    <li><a href="#级数">级数</a></li>
+    <li><a href="#特征多项式">特征多项式</a></li>
+    <li><a href="#本原多项式">本原多项式</a></li>
+    <li><a href="#m-序列的性质">$m$ 序列的性质</a>
+      <ul>
+        <li><a href="#均衡性">均衡性</a></li>
+        <li><a href="#移位相加性">移位相加性</a></li>
+        <li><a href="#自相关性">自相关性</a></li>
+        <li><a href="#游程分布">游程分布</a></li>
+      </ul>
+    </li>
+    <li><a href="#附录">附录</a></li>
+  </ul>
+</nav></div>
+    </div><script>document.getElementsByTagName("main")[0].setAttribute("autoTOC", "true")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">线性反馈移位寄存器🛅</h1><div class="post-meta">
+            <div class="post-meta-line">
+                <span class="post-author"><span class="author fas fa-user-circle fa-fw"></span><a href="/" title="Author" rel=" author" class="author">sereinme</a>
+                </span>&nbsp;<span class="post-category">收录于 </span>&nbsp;<span class="post-category">类别 <a href="/categories/lab/"><i class="far fa-folder fa-fw"></i>Lab</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-07-04">2023-07-04</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-07-04">2023-07-04</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1463 字&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 3 分钟&nbsp;</div>
+        </div><div class="featured-image"><img
+        
+        loading="eager"
+        src="/lfsr/lsfr.webp"
+        srcset="/lfsr/lsfr.webp, /lfsr/lsfr.webp 1.5x, /lfsr/lsfr.webp 2x"
+        sizes="auto"
+        alt="C/A 码生成器是由两个不同的 LSFR 组合而成"
+        title="C/A 码生成器是由两个不同的 LSFR 组合而成" height="2496"   width="4074" ></div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#lfsr引入">LFSR引入</a></li>
+    <li><a href="#反馈函数">反馈函数</a></li>
+    <li><a href="#级数">级数</a></li>
+    <li><a href="#特征多项式">特征多项式</a></li>
+    <li><a href="#本原多项式">本原多项式</a></li>
+    <li><a href="#m-序列的性质">$m$ 序列的性质</a>
+      <ul>
+        <li><a href="#均衡性">均衡性</a></li>
+        <li><a href="#移位相加性">移位相加性</a></li>
+        <li><a href="#自相关性">自相关性</a></li>
+        <li><a href="#游程分布">游程分布</a></li>
+      </ul>
+    </li>
+    <li><a href="#附录">附录</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><!-- Emotive Ballad - Guthrie Govan -->
+<meting-js server="netease" type="song" id="1416264" theme="#448aff" autoplay="true"></meting-js>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>线性反馈移位寄存器<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Linear Feedback Shift Register, LFSR, 作为线性驱动部分来生成伪随机码，是数学意义上的最优解，自相关函数除主峰外具有最大平坦。</div>
+        </div>
+    </div>
+<h2 id="lfsr引入" class="headerLink">
+    <a href="#lfsr%e5%bc%95%e5%85%a5" class="header-mark"></a>LFSR引入</h2><p>若干个寄存器排列成一行，每个寄存器存储着一个二进制数。移位寄存器每次将最右端(末端)的数字输出，然后整体向右移动移位。同时具有一个反馈函数，以寄存器中已有的某些序列作为反馈函数的输入，将反馈函数的输出填充到移位寄存器的最左端，这样的，拥有反馈函数的移位寄存器称为反馈移位寄存器。</p>
+<h2 id="反馈函数" class="headerLink">
+    <a href="#%e5%8f%8d%e9%a6%88%e5%87%bd%e6%95%b0" class="header-mark"></a>反馈函数</h2><p><a id="eq1"></a>
+LFSR的反馈函数就是简单地对移位寄存器中的某些位进行异或，并将异或的结果填充到LFSR的最左端。对于LFSR中每一位的数据，可以参与异或，也可以不参与异或。其中，我们把参与异或的位称为抽头。</p>
+<p>$$
+b_{n+1} = c_1b_1 \oplus c_2b_2 \oplus \ldots \oplus c_nb_n \tag{1}
+$$</p>
+<h2 id="级数" class="headerLink">
+    <a href="#%e7%ba%a7%e6%95%b0" class="header-mark"></a>级数</h2><p>LFSR 的级数就是其中寄存器的个数，一个 $n$ 级的 LFSR 最多可以存储 $2^n-1$ 种状态，因为全零的状态反馈值始终是全零。至于为什么最多能够遍历 $2^n-1$ 种状态，将在之后介绍。一个 $n$ 级的 LFSR 的最大周期就是 $2^n-1$ ，我们将周期为 $2^n-1$ 的 LFSR 所生成的序列称为m 序列。</p>
+<h2 id="特征多项式" class="headerLink">
+    <a href="#%e7%89%b9%e5%be%81%e5%a4%9a%e9%a1%b9%e5%bc%8f" class="header-mark"></a>特征多项式</h2><p>由 <a href="#eq1">(1)</a> 中的式子可以得到一个 LFSR 的递推关系式，则这个递推关系可以对应这一个特征多项式</p>
+<p>$$
+f(x) = c_nx^n + c_{n-1} + \ldots + c_2x^2 + c_1x + 1\tag{2}
+$$</p>
+<p>这里的 $c_i$ 与之前的定义相同，表示是否抽头。最终得到的特征多项式只保留抽头位次项，并加一。可以理解为一个 LFSR 的不同特征多项式对应着不同的反馈函数。</p>
+<h2 id="本原多项式" class="headerLink">
+    <a href="#%e6%9c%ac%e5%8e%9f%e5%a4%9a%e9%a1%b9%e5%bc%8f" class="header-mark"></a>本原多项式</h2><p>首先给出一个结论</p>
+<div class="details admonition info open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-info-circle fa-fw"></i>信息<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">$n$ 级 LFSR 能够产生 $m$ 序列的充要条件为其特征多项式为本原多项式</div>
+        </div>
+    </div>
+<p>接下来以此引入<strong>不可约多项式</strong>和<strong>本原多项式</strong>。</p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>不可约多项式<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Irreducible Polynomial. 一个多项式在指定域上不能分解，则称为不可约多项式，即不能等于次数更小的多项式的乘积。</div>
+        </div>
+    </div>
+<p>LFSR 中采用的有限域为 $GF(2^n)$ ，指多项式的系数要小于 2，即为 0 或 1，多项式的最高次数不能够大于或等于 n。如 $GF(2^3)$ 中的多项式为 $0, 1, x, x+1$ 。</p>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw"></i>本原多项式<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">Primitive Polynomial. 本原多项式本身就是一种不可约多项式，但是需要满足以下三个条件：对于 $n$ 次的本原多项式 $F(x)$。</div>
+        </div>
+    </div>
+<ol>
+<li>$F(x)$ 是不可约的，不能再分解多项式</li>
+<li>$F(x)$ 可整除 $x^p+1$ ，其中 $p = 2^n-1$</li>
+<li>$F(x)$ 不能整除 $x^q+1$ ，其中 $q&lt;p$</li>
+</ol>
+<p>由本原多项式可以得到生成 $m$ 序列的反馈函数，如 $n=10$ 时本原多项式为</p>
+
+$$
+F(x) = x^{10} + x^3 + 1\tag{3}
+$$
+
+<p>则反馈函数就表示为 <code>[0,0,1,0,0,0,0,0,0,1]</code> ，意味着第 3 位寄存器和第 10 位寄存器中的值做异或得到的输出赋值给最左端的寄存器，实现移位反馈。</p>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>技巧<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">MATLAB 中 <code>primpoly</code> 函数可以查看任意次数的本原多项式</div>
+        </div>
+    </div>
+<h2 id="m-序列的性质" class="headerLink">
+    <a href="#m-%e5%ba%8f%e5%88%97%e7%9a%84%e6%80%a7%e8%b4%a8" class="header-mark"></a>$m$ 序列的性质</h2><p>$m$ 序列实际上就是我们称呼的伪随机码或者扩频码。</p>
+<h3 id="均衡性" class="headerLink">
+    <a href="#%e5%9d%87%e8%a1%a1%e6%80%a7" class="header-mark"></a>均衡性</h3><p>在 $m$ 序列的一个周期中，0 和 1 的数目基本相等，1 的个数会比 0 多一个。</p>
+<h3 id="移位相加性" class="headerLink">
+    <a href="#%e7%a7%bb%e4%bd%8d%e7%9b%b8%e5%8a%a0%e6%80%a7" class="header-mark"></a>移位相加性</h3><p>一个 $m$ 序列 $m_1$ 与其经过任意延迟移位产生的另一序列 $m_2$ 模 2 相加(异或)，得到的仍是 $m_1$ 的某次延迟移位序列 $m_3$。</p>
+<h3 id="自相关性" class="headerLink">
+    <a href="#%e8%87%aa%e7%9b%b8%e5%85%b3%e6%80%a7" class="header-mark"></a>自相关性</h3><p>由于 1 的个数始终比 0 多一个，因此在做自相关的过程中，始终会得到一个 -1 的值，这与完全的随机信号有着很大的区别。</p>
+
+$$
+R(\tau) = \left\{
+\begin{align*}
+    &1, &\tau = 0\\
+    &-\frac{1}{N}, &\mathrm{else}
+\end{align*}\right.\tag{4}
+$$
+
+<h3 id="游程分布" class="headerLink">
+    <a href="#%e6%b8%b8%e7%a8%8b%e5%88%86%e5%b8%83" class="header-mark"></a>游程分布</h3><p>$m$ 序列中取值相同的相继元素合称为一个“游程”，游程中元素的个数称为游程长度。n 位 LFSR 生成的 $m$ 序列中，总共由 $2^{n-1}$ 个游程，其中长度为 1 的游程占总游程数的 1/2，长度为 2 游程占总游程数的 1/4，长度为 k 的游程占总游程数的 $2^{-k}$ ，且长度为 k 的游程中，连 0 和连 1 的游程数各占一半。游程分布具有很好的均衡性。</p>
+<p>如序列 <code>1000010010110011111000110111010</code> 中，游程总数为 $2^{5-1}=16$ ，各个长度的游程分布如下：</p>
+<ul>
+<li>长度为 1 的游程数目为 8，其中 4 个 1 游程和 4 个 0 游程</li>
+<li>长度为 2 的游程数目为 4，其中 2 个 11 游程和 2 个 00 游程</li>
+<li>长度为 3 的游程数目为 2，其中 1 个 111 游程和 1 个 000 游程</li>
+<li>长度为 4 的连 0 游程数目为 1</li>
+<li>长度为 5 的连 1 游程数目为 1</li>
+</ul>
+<h2 id="附录" class="headerLink">
+    <a href="#%e9%99%84%e5%bd%95" class="header-mark"></a>附录</h2><p>由于时间原因，之前有关本原多项式的生成和证明有所省略，未来有时间可以在其他文献中进行查阅</p>
+<ul>
+<li><a href="./generation.pdf" rel="">Generation of primitive binary polynomial</a></li>
+<li><a href="./lfsr.pdf" rel="">LFSR AND PRIMITIVE POLYNOMIAL</a></li>
+</ul>
+</div>
+
+        
+
+<div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2023-07-04</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span><a class="link-to-mardown" href=/lfsr/index.md target="_blank" rel="noopener noreferrer">阅读原始文档</a>
+                    </span></div>
+            <div class="post-info-share"><button title="分享到 Twitter" data-sharer="twitter" data-url="https://sereinme.netlify.app/lfsr/" data-title="线性反馈移位寄存器🛅" data-hashtags="GNSS,Signal,LSFR"><span class="fab fa-twitter fa-fw"></span></button><button title="分享到 Reddit" data-sharer="reddit" data-url="https://sereinme.netlify.app/lfsr/"><span class="fab fa-reddit fa-fw"></span></button><button title="分享到 微博" data-sharer="weibo" data-url="https://sereinme.netlify.app/lfsr/" data-title="线性反馈移位寄存器🛅" data-image="lsfr.webp"><span class="fab fa-weibo fa-fw"></span></button><script>
+        function shareOnMastodon(title, link) {
+            const SHARE_MASTODON_DOMAIN = "share_mastodon_domain"
+            const savedDomain = localStorage.getItem(SHARE_MASTODON_DOMAIN) ?? "mastodon.social";
+            const domain = prompt("Enter your Mastodon domain", savedDomain);
+            if (domain === null) {
+                return;
+            }
+            localStorage.setItem(SHARE_MASTODON_DOMAIN, domain)
+            const text = title + "\n\n" + link;
+            const url = new URL("https://" + domain)
+            url.pathname = "share"
+            url.searchParams.append('text', text)
+            window.open(url, '_blank', "width=500,height=500,left=500,toolbar=0,status=0");
+        }
+    </script>
+    <button title="分享到 Mastodon"onclick="javascript:shareOnMastodon(&#34;线性反馈移位寄存器🛅&#34;, &#34;https://sereinme.netlify.app/lfsr/&#34;)"><span class="fab fa-mastodon fa-fw"></span></button></div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/gnss/">GNSS</a>,&nbsp;<a href="/tags/signal/">Signal</a>,&nbsp;<a href="/tags/lsfr/">LSFR</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/deflate/" class="prev" rel="prev" title="DEFLATE📝"><i class="fas fa-angle-left fa-fw"></i>DEFLATE📝</a></div>
+</div>
+<div id="comments"><div id="utterances"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://utteranc.es/">Utterances</a>.
+            </noscript></div></article></div>
+        </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">
+                    由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer" title="Hugo 0.115.0">Hugo</a> 强力驱动&nbsp;|&nbsp;主题 - <a href="https://github.com/HEIGE-PCloud/DoIt" target="_blank" rel="noopener noreferrer" title="DoIt 0.4.0"><i class="far fa-edit fa-fw"></i> DoIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank" rel="noopener noreferrer">sereinme</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+            <div class="footer-line"></div>
+            <div class="footer-line">
+            </div>
+        </div></footer></div>
+
+    <div id="fixed-buttons"><a href="#back-to-top" id="back-to-top-button" class="fixed-button" title="回到顶部">
+            <i class="fas fa-arrow-up fa-fw"></i>
+        </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+            <i class="fas fa-comment fa-fw"></i>
+        </a>
+    </div><div id="cookieconsent-container"></div><div class="assets"><link rel="stylesheet" href="/lib/katex/katex.min.9acc537523846bbf42b9c63a52ecc07a.css" integrity="md5-msxTdSOEa79CucY6UuzAeg=="><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/katex/copy-tex.min.727189e34fc67f1c2e7020d67aada5dc.css" integrity="md5-cnGJ40/GfxwucCDWeq2l3A==">
+        <noscript><link rel="stylesheet" href="/lib/katex/copy-tex.min.727189e34fc67f1c2e7020d67aada5dc.css" integrity="md5-cnGJ40/GfxwucCDWeq2l3A=="></noscript><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.4c5305a5255032858d47ae995b20aeca.css" integrity="md5-TFMFpSVQMoWNR66ZWyCuyg=="><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{"utterances":{"darkTheme":"github-dark","issueTerm":"pathname","label":"","lightTheme":"github-light","repo":"Sereinme/hugo.site"}},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"data":{"desktop-header-typeit":"Sereinme🍭","mobile-header-typeit":"Sereinme🍭"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"distance":100,"findAllMatches":false,"fuseIndexURL":"/index.json","highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"没有找到结果","snippetLength":50,"threshold":0.3,"type":"fuse","useExtendedSearch":false},"sharerjs":true,"table":{"sort":true},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"desktop-header-typeit":["desktop-header-typeit"],"mobile-header-typeit":["mobile-header-typeit"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/lib/tablesort/tablesort.min.780b6c687c0fa94aafcd976fedb0c871.js" integrity="md5-eAtsaHwPqUqvzZdv7bDIcQ=="></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.46a19c0236eccc86e5cd3b2521f8c69a.js" integrity="md5-RqGcAjbszIblzTslIfjGmg=="></script><script type="text/javascript" src="/lib/sharer/sharer.min.b834cfb885a9d1d9cc75ca8215372179.js" integrity="md5-uDTPuIWp0dnMdcqCFTcheQ=="></script><script type="text/javascript" src="/lib/typeit/typeit.min.9d25659879cc88596096d4ad38a5a303.js" integrity="md5-nSVlmHnMiFlgltStOKWjAw=="></script><script type="text/javascript" src="/lib/katex/katex.min.9b28685a9923f3ff30cb5400372c04ee.js" integrity="md5-myhoWpkj8/8wy1QANywE7g==" defer></script><script type="text/javascript" src="/lib/katex/auto-render.min.ee714a6885cbddd97bf29ba915b037af.js" integrity="md5-7nFKaIXL3dl78pupFbA3rw==" defer></script><script type="text/javascript" src="/lib/katex/copy-tex.min.c3a3efd7d609e2e905aa386fc0f7d18e.js" integrity="md5-w6Pv19YJ4ukFqjhvwPfRjg==" defer></script><script type="text/javascript" src="/lib/katex/mhchem.min.b6038d83e1a8356a1f5474ab51a32c45.js" integrity="md5-tgONg&#43;GoNWofVHSrUaMsRQ==" defer></script><script type="text/javascript" src="/js/katex.min.js" defer></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.4a48532bf0b17c058b8b6854f49de23f.js" integrity="md5-SkhTK/CxfAWLi2hU9J3iPw==" defer></script><script type="text/javascript" src="/js/cookieconsent.min.js" defer></script><script type="text/javascript" src="/js/theme.min.js" defer></script><script type="text/javascript" src="/js/utterances.min.js" defer></script></div>
+</body>
+
+</html>

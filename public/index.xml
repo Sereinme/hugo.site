@@ -4,9 +4,18 @@
         <link>https://sereinme.netlify.app/</link>
         <description>Sereinme 的网站</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>sereinme@foxmail.com (sereinme)</managingEditor>
-            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Tue, 27 Jun 2023 01:52:37 &#43;0800</lastBuildDate>
+            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Tue, 04 Jul 2023 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://sereinme.netlify.app/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>线性反馈移位寄存器🛅</title>
+    <link>https://sereinme.netlify.app/lfsr/</link>
+    <pubDate>Tue, 04 Jul 2023 00:00:00 &#43;0000</pubDate><author>
+        <name>sereinme</name>
+    </author><guid>https://sereinme.netlify.app/lfsr/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/lfsr/lsfr.webp" referrerpolicy="no-referrer">
+            </div>线性反馈移位寄存器 Linear Feedback Shift Register, LFSR, 作为线性驱动部分来生成伪随机码，是数学意义上的最优解，自相关函数除主峰外具有最大平坦。 LFSR引入若干个寄存器排]]></description>
+</item><item>
     <title>DEFLATE📝</title>
     <link>https://sereinme.netlify.app/deflate/</link>
     <pubDate>Tue, 27 Jun 2023 01:52:37 &#43;0800</pubDate><author>

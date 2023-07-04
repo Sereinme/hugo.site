@@ -583,12 +583,12 @@ theme = "DoIt"
       images = ["images/avatar.webp"]
       # 出版者信息
       [params.page.seo.publisher]
-        name = ""
-        logoUrl = ""
+        name = "sereinme"
+        logoUrl = "images/pinkblue.jpg"
     #  相关文章推荐配置
     [params.page.related]
       enable = true
-      count = 5
+      count = 2
 
 
   #  赞赏配置
