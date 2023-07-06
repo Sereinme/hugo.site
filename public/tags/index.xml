@@ -4,7 +4,28 @@
         <link>https://sereinme.netlify.app/tags/</link>
         <description>Tags - 标签 - Sereinme</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>sereinme@foxmail.com (sereinme)</managingEditor>
-            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Tue, 04 Jul 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://sereinme.netlify.app/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Thu, 06 Jul 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://sereinme.netlify.app/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Math</title>
+    <link>https://sereinme.netlify.app/tags/math/</link>
+    <pubDate>Thu, 06 Jul 2023 00:00:00 &#43;0000</pubDate><author>
+        <name>sereinme</name>
+    </author><guid>https://sereinme.netlify.app/tags/math/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Office</title>
+    <link>https://sereinme.netlify.app/tags/office/</link>
+    <pubDate>Thu, 06 Jul 2023 00:00:00 &#43;0000</pubDate><author>
+        <name>sereinme</name>
+    </author><guid>https://sereinme.netlify.app/tags/office/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Research</title>
+    <link>https://sereinme.netlify.app/tags/research/</link>
+    <pubDate>Thu, 06 Jul 2023 00:00:00 &#43;0000</pubDate><author>
+        <name>sereinme</name>
+    </author><guid>https://sereinme.netlify.app/tags/research/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>GNSS</title>
     <link>https://sereinme.netlify.app/tags/gnss/</link>
     <pubDate>Tue, 04 Jul 2023 00:00:00 &#43;0000</pubDate><author>
@@ -17,13 +38,6 @@
     <pubDate>Tue, 04 Jul 2023 00:00:00 &#43;0000</pubDate><author>
         <name>sereinme</name>
     </author><guid>https://sereinme.netlify.app/tags/lsfr/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Research</title>
-    <link>https://sereinme.netlify.app/tags/research/</link>
-    <pubDate>Tue, 04 Jul 2023 00:00:00 &#43;0000</pubDate><author>
-        <name>sereinme</name>
-    </author><guid>https://sereinme.netlify.app/tags/research/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Signal</title>
@@ -59,13 +73,6 @@
     <pubDate>Mon, 26 Jun 2023 09:57:37 &#43;0800</pubDate><author>
         <name>sereinme</name>
     </author><guid>https://sereinme.netlify.app/tags/computer/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Go</title>
-    <link>https://sereinme.netlify.app/tags/go/</link>
-    <pubDate>Mon, 26 Jun 2023 09:57:37 &#43;0800</pubDate><author>
-        <name>sereinme</name>
-    </author><guid>https://sereinme.netlify.app/tags/go/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Math - 标签 - Sereinme</title>
+        <link>https://sereinme.netlify.app/tags/math/</link>
+        <description>Math - 标签 - Sereinme</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>sereinme@foxmail.com (sereinme)</managingEditor>
+            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Thu, 06 Jul 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://sereinme.netlify.app/tags/math/" rel="self" type="application/rss+xml" /><item>
+    <title>Word 公式编号与对齐🧉</title>
+    <link>https://sereinme.netlify.app/word-equation/</link>
+    <pubDate>Thu, 06 Jul 2023 00:00:00 &#43;0000</pubDate><author>
+        <name>sereinme</name>
+    </author><guid>https://sereinme.netlify.app/word-equation/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/word-equation/Microsoft-Word-Logo.webp" referrerpolicy="no-referrer">
+            </div>参考 Word多行公式的换行、对齐与编号 Word 2016自带公式编辑器如何做到等号对齐？]]></description>
+</item></channel>
+</rss>

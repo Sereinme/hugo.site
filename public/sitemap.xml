@@ -2,15 +2,18 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://sereinme.netlify.app/categories/</loc><lastmod>2023-07-04T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://sereinme.netlify.app/categories/</loc><lastmod>2023-07-06T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://sereinme.netlify.app/categories/lab/</loc><lastmod>2023-07-06T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://sereinme.netlify.app/tags/math/</loc><lastmod>2023-07-06T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://sereinme.netlify.app/tags/office/</loc><lastmod>2023-07-06T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://sereinme.netlify.app/posts/</loc><lastmod>2023-07-06T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://sereinme.netlify.app/tags/research/</loc><lastmod>2023-07-06T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://sereinme.netlify.app/</loc><lastmod>2023-07-06T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://sereinme.netlify.app/tags/</loc><lastmod>2023-07-06T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://sereinme.netlify.app/word-equation/</loc><lastmod>2023-07-06T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://sereinme.netlify.app/tags/gnss/</loc><lastmod>2023-07-04T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://sereinme.netlify.app/categories/lab/</loc><lastmod>2023-07-04T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://sereinme.netlify.app/tags/lsfr/</loc><lastmod>2023-07-04T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://sereinme.netlify.app/posts/</loc><lastmod>2023-07-04T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://sereinme.netlify.app/tags/research/</loc><lastmod>2023-07-04T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://sereinme.netlify.app/</loc><lastmod>2023-07-04T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://sereinme.netlify.app/tags/signal/</loc><lastmod>2023-07-04T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://sereinme.netlify.app/tags/</loc><lastmod>2023-07-04T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://sereinme.netlify.app/lfsr/</loc><lastmod>2023-07-04T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://sereinme.netlify.app/tags/compression/</loc><lastmod>2023-06-27T01:52:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>https://sereinme.netlify.app/deflate/</loc><lastmod>2023-06-27T01:52:37&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>

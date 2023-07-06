@@ -4,7 +4,16 @@
         <link>https://sereinme.netlify.app/posts/</link>
         <description>所有文章 | Sereinme</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>sereinme@foxmail.com (sereinme)</managingEditor>
-            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Tue, 04 Jul 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://sereinme.netlify.app/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>sereinme@foxmail.com (sereinme)</webMaster><lastBuildDate>Thu, 06 Jul 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://sereinme.netlify.app/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Word 公式编号与对齐🧉</title>
+    <link>https://sereinme.netlify.app/word-equation/</link>
+    <pubDate>Thu, 06 Jul 2023 00:00:00 &#43;0000</pubDate><author>
+        <name>sereinme</name>
+    </author><guid>https://sereinme.netlify.app/word-equation/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/word-equation/Microsoft-Word-Logo.webp" referrerpolicy="no-referrer">
+            </div>参考 Word多行公式的换行、对齐与编号 Word 2016自带公式编辑器如何做到等号对齐？]]></description>
+</item><item>
     <title>线性反馈移位寄存器🛅</title>
     <link>https://sereinme.netlify.app/lfsr/</link>
     <pubDate>Tue, 04 Jul 2023 00:00:00 &#43;0000</pubDate><author>
