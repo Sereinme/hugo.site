@@ -12,7 +12,7 @@
     </author><guid>https://sereinme.netlify.app/word-equation/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/word-equation/Microsoft-Word-Logo.webp" referrerpolicy="no-referrer">
-            </div>参考 Word多行公式的换行、对齐与编号 Word 2016自带公式编辑器如何做到等号对齐？]]></description>
+            </div>多行公式（包括矩阵）先在 Markdown 中写好，之后复制进 Word 中删除空格后，在最后一个字符处回车。 参考 Word多行公式的换行、对齐与编号 Word 2016自带公式编]]></description>
 </item><item>
     <title>线性反馈移位寄存器🛅</title>
     <link>https://sereinme.netlify.app/lfsr/</link>
