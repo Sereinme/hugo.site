@@ -42,3 +42,7 @@ comment: false
 - 🎸 摇滚 / 金属 / Fusion
 - 👟 篮球 / 羽毛球 / 乒乓球
 - 🕹️ 原神 / 只狼 / 杀戮尖塔
+
+---
+
+{{< music server="netease" type="playlist" id="1997653413" order="random" autoplay="true" >}}
