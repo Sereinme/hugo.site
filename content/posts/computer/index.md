@@ -11,7 +11,7 @@ categories: ["Life"]
 <!-- James Franco - Polyphia -->
 {{< music server="netease" type="song" id="28983126" autoplay="true" >}}
 
-我进入大学买的第一台笔记本是 HP 的 EliteBook，配置是
+我进入大学买的第一台笔记本是 HP 的 EliteBook，配置是 AMD
 
 ## 配置
 
