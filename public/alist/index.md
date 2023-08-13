@@ -6,7 +6,7 @@
 
 [Alist](https://alist.nn.ci/)是一个使用 [Gin](https://gin-gonic.com/zh-cn/) 和 [Solidjs](https://www.solidjs.com/) 开发的支持多种存储的文件列表程序，其具有优秀的性能和美观的用户界面，能够很好地对各种网盘以及本地存储文件进行管理和多平台访问（主要是视频、图像和音频）。
 
-欢迎访问我的 Alist 站点：[sereinme's alist](http://59.66.175.32:5244)。
+欢迎访问我的 Alist 站点：[sereinme's alist](http://59.66.20.12:5244)。
 
 ## 安装
 
